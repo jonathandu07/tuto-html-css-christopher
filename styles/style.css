@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f7f7ff;
+}
+
+main {
+  display: flex;
+  width: 96vw;
+  margin: auto;
+  justify-content: space-between;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+nav {
+  display: flex;
+  height: 4rem;
+  background-color: #e5e5e5;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img {
+  height: 92%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.5vw;
+}
+
+div {
+  height: 2rem;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 16rem;
+
+  text-align: center;
+  font-weight: 100;
+  color: #0a0b0a;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+article {
+  background-color: #051440;
+  height: 20rem;
+  width: 20rem;
+}
+
+aside {
+  background-color: #3e5349;
+  height: 16rem;
+  width: 16rem;
+}
+
+article aside div {
+  background-color: #091226;
+  height: 12rem;
+  width: 12rem;
+}
+
+.article {
+  background-color: #051440;
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.article_aside {
+  background-color: #3e5349;
+  height: 16rem;
+  width: 16rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.article_aside_div {
+  background-color: #091226;
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+}
